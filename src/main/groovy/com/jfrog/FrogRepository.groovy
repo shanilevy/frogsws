@@ -10,6 +10,7 @@ class FrogRepository {
 
     List<Frog> getAllFrogs() {
         [
+                new Frog(name: 'Froga', year: 2016, quote: 'May the frog be with you', imageUrl: '/jedi.png'),
                 new Frog(name: 'Batfrog', year: 2015, quote: 'It\'s always darkest before the green shines', imageUrl: '/bat.png'),
                 new Frog(name: 'Superfrog', year: 2014, quote: 'It\'s a bird, it\'s a plane, it\'s Superfrog', imageUrl: '/superfrog.png'),
                 new Frog(name: 'James Frog', year: 2013, quote: 'The name\'s Frog, JFrog', imageUrl: '/jamesfrog.png'),
